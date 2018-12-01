@@ -2,7 +2,6 @@
 #define SOUNDVOLTEXCONTROLLER_SOUND_VOLTEX_CONTROLLER_H_
 #include "gamecontrollerwithled/game_controller_with_led.h"
 #include "knob/knob.h"
-#ifdef GAMECONTROLLER_GAME_CONTROLLER_H_
 namespace soundvoltexcontroller {
 //GameControllerWithLed를 상속받아 만든 Sound Voltex 컨트롤러.
 class SoundVoltexController
@@ -130,5 +129,4 @@ inline void SoundVoltexController::MakeControllerData() {
   SetLeftAnalogStickYAxisValue(right_knob_->ReadValue());
 }
 }
-#endif
 #endif
