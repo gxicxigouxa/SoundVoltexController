@@ -4,7 +4,7 @@
 #include "knob/knob.h"
 #ifdef GAMECONTROLLER_GAME_CONTROLLER_H_
 namespace soundvoltexcontroller {
-//GameController를 상속받아 만든 Sound Voltex 컨트롤러.
+//GameControllerWithLed를 상속받아 만든 Sound Voltex 컨트롤러.
 class SoundVoltexController
   : public gamecontrollerwithled::GameControllerWithLed {
  public:
