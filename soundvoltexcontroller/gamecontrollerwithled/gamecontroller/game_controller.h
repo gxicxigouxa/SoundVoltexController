@@ -10,7 +10,6 @@ class GameController {
   const static int kMinAnalogStickValue = 0;
   const static int kMiddleAnalogStickValue = 127;
   const static int kMaxAnalogStickValue = 255;
-  //생성자에서 사용할 아날로그 스틱 종류.
   //기본 생성자.
   GameController();
   //소멸자.
