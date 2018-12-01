@@ -1,5 +1,3 @@
-﻿//2016.07.26
-//LED 작동을 위한 Interface.
 #ifndef LEDAVAILABLE_LED_AVAILABLE_INTERFACE_H_
 #define LEDAVAILABLE_LED_AVAILABLE_INTERFACE_H_
 namespace ledavailable {
