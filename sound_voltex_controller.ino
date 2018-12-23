@@ -19,13 +19,9 @@ void setup() {
   //컨트롤러 초기화.
   sound_voltex_controller.Initialize();
   //버튼에 해당하는 핀 할당.
-  sound_voltex_controller.SetButtonPins(kNumberOfButtons, kStartButton, kBt1Button, kBt2Button, kBt3Button, kBt4Button, kFxLButton, kFxRButton, kSelectButton);
+  sound_voltex_controller.SetButtonPins(kNumberOfButtons, kBt1Button, kBt2Button, kBt3Button, kBt4Button, kFxLButton, kFxRButton, kSelectButton, kStartButton);
   //Select 버튼과의 동시 입력으로 추가 버튼 할당.
   sound_voltex_controller.CombineButtons(2, kStartButton, kSelectButton);
-  sound_voltex_controller.CombineButtons(2, kBt1Button, kSelectButton);
-  sound_voltex_controller.CombineButtons(2, kBt2Button, kSelectButton);
-  sound_voltex_controller.CombineButtons(2, kBt3Button, kSelectButton);
-  sound_voltex_controller.CombineButtons(2, kBt4Button, kSelectButton);
   //왼쪽, 오른쪽 노브의 왼쪽, 오른쪽 회전에 할당될 핀.
   const static int kLeftKnobLeftTurn = 9;
   const static int kLeftKnobRightTurn = 10;

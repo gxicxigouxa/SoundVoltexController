@@ -53,8 +53,6 @@ class SoundVoltexController
 
 SoundVoltexController::SoundVoltexController()
   : GameControllerWithLed() {
-  left_knob_position_ = kMiddleAnalogStickValue;
-  right_knob_position_ = kMiddleAnalogStickValue;
 }
 
 SoundVoltexController::~SoundVoltexController() {
